@@ -23,6 +23,11 @@ In this mode, default volume and play/pause logic is ignored. Instead, it execut
 
 ---
 
+## 👏 Credits
+This blueprint was modified and adapted for media players based on the [ZHA - Generic Tuya Smart Knob (TS004F) blueprint](https://community.home-assistant.io/t/zha-generic-tuya-smart-knob-ts004f-blueprint/981034). Thank you to the original authors!
+
+---
+
 ## Troubleshooting & FAQ
 
 **The button isn't doing anything when I turn it or click it.**
@@ -33,3 +38,6 @@ If you want to map your own custom actions to the device (like skipping tracks, 
 
 **The volume changes are too drastic or too subtle.**
 Different media players scale their volume differently. If a single click of the dial jumps the volume too high, edit your automation and lower the **Volume Step** slider. The default is set to 5%, but you can adjust it anywhere from 1% to 100% to find the sweet spot for your specific speakers.
+
+
+*Tags: Home Assistant, HA, Blueprint, ZHA, Zigbee Home Automation, Media Player, Music Assistant, Volume Control, Tuya Knob, Smart Dial, Play Pause, Step Volume.*
